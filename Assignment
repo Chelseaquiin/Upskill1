@@ -1,0 +1,27 @@
+Normal HTML elements versus semantic HTML elements:
+
+Normal HTML elements are generic tags used to structure web pages, such as `<div>`, `<span>`, and `<p>`. They don't convey any specific meaning about their content to search engines.
+
+Semantic HTML elements, on the other hand, provide meaning and context to the content they encapsulate. Examples include `<header>`, `<nav>`, `<footer>`, `<article>`, `<section>`, `<aside>`, `<main>`, `<figure>`, `<figcaption>`, `<time>`, and others. Semantic elements can help developers improve accessibility, search engine optimization (SEO), and overall document structure.
+
+Disparity between closing tags and self-closing tags in HTML:
+
+Closing tags are used to mark the end of an HTML element. For example:
+
+<p>This is a paragraph.</p>
+
+Self-closing tags are used for elements that don't contain any content and don't need a closing tag. Instead, they end with a forward slash before the closing angle bracket. For example:
+
+<img src="image.jpg" alt="Description" />
+
+Distinguishing inline elements from block elements in HTML:
+
+Inline elements:
+- Inline elements don't start on a new line and only occupy the space bounded by their tags.
+- Examples include `<span>`, `<a>`, `<strong>`, `<em>`, `<img>`, `<input>`, `<br>`, and `<small>`.
+- They can be nested within block-level elements and other inline elements.
+
+Block elements:
+- Block-level elements always start on a new line and occupy the full width available, pushing subsequent content to a new line.
+- Examples include `<div>`, `<p>`, `<h1>` to `<h6>`, `<ul>`, `<ol>`, `<li>`, `<table>`, `<form>`, and `<header>`.
+- They cannot be nested inside inline elements, but they can contain both block-level and inline elements.
